@@ -2,5 +2,5 @@
 
 ## Membros
 
-- Zorron
-- Moises
+- Artur Filgueiras Scheiba Zorron (180013696)
+- Lucas Vinicius Magalhães Pinheiro (170061001)

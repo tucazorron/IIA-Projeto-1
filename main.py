@@ -50,5 +50,5 @@ def createMatrix():
 
 def main():
     createMatrix()
-
+    print("funfa")
 main()
