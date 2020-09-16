@@ -1,7 +1,5 @@
-def createMatrix():
-    fileira = 10
-    coluna = 10
-    matrix = [[0 for x in range(fileira)] for y in range(coluna)]
+def create():
+    matrix = [[0 for x in range(10)] for y in range(10)]
     matrix[0][1] = matrix[1][0] = 17
     matrix[0][2] = matrix[2][0] = 3
     matrix[0][3] = matrix[3][0] = 35
@@ -48,7 +46,4 @@ def createMatrix():
     matrix[7][9] = matrix[9][7] = 6
     matrix[8][9] = matrix[9][8] = 16
 
-def main():
-    createMatrix()
-    print("funfa")
-main()
+    return matrix
