@@ -14,7 +14,6 @@ def create(population):
     list = [0 for x in range(20)]
     for x in range(len(population)):
         list[x] = calculate(population[x], matrix)
-    print(list)
     list_sort = list.copy()
     list_sort.sort()
     list_final = [0 for x in range(20)]
@@ -24,6 +23,4 @@ def create(population):
             y += 1
         list_final[x] = y
         list[y] = 0
-    print(list_sort)
-    print(list_final)
     return list_final
