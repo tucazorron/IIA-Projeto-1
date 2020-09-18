@@ -10,5 +10,5 @@
 # Brasília        = 9
 
 def create():
-    list = ["São Paulo", "Buenos Aires", "Rio de Janeiro", "Lima", "Bogotá", "Santiago", "Caracas", "Belo Horizonte", "Porto Alegre", "Brasília"]
+    list = ["Sao Paulo", "Buenos Aires", "Rio de Janeiro", "Lima", "Bogota", "Santiago", "Caracas", "Belo Horizonte", "Porto Alegre", "Brasilia"]
     return list

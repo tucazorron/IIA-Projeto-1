@@ -1,15 +1,15 @@
-import Matrix
 import InitialPopulation
-import CitysList
 import FitnessFunction
 import NewPopulation
+import Results
 
 def main():
-    city_list = CitysList.create()
-    matrix = Matrix.create()
+
     population = InitialPopulation.create()
-    for x in range(2):
-        fitness_list = FitnessFunction.create(population).copy()
-        population = NewPopulation.create(population).copy()
+
+    for x in range(1000):
+        fitness_matrix = FitnessFunction.do(population).copy()
+        population = NewPopulation.create(fitness_matrix).copy()
+        Results.write(fitness_matrix[0], x)
 
 main()
